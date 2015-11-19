@@ -2,12 +2,13 @@
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
+	public float sight;	// a variable that decide distance that player can see
 	float h,v;
-	CoordinateMap map;
-	Vector3 currentPosition;
+	CoordinateMap map; //call function updateCoordinate to determine which object should be activited
+
 	// Use this for initialization
 	void Start () {
-		currentPosition = new Vector3();
+
 		map = GameObject.FindGameObjectWithTag (Tags.GameController).GetComponent<CoordinateMap> ();
 	}
 	
@@ -16,7 +17,7 @@ public class PlayerController : MonoBehaviour {
 		h = Input.GetAxis ("Horizontal");
 		v = Input.GetAxis ("Vertical");
 		transform.Translate (h,v,0);
-		currentPosition = transform.position;
+
 		map.updateCoordinate (Tags.PlayerID, transform.position);
 	}
 }

@@ -8,6 +8,6 @@ public static class Tags  {
 	public static string Obstacle = "Obstacle";
 
 	public const int PlayerID = 1;
-	public const int Obtacle1ID = 1001;
+	public const int Obstacle1ID = 1001;
 	public const int MaxID = 1002;
 }
