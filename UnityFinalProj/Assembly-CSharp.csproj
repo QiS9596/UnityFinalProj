@@ -45,9 +45,30 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\SpaceUnity\Scripts\SU_Asteroid.cs" />
+     <Compile Include="Assets\SpaceUnity\Scripts\SU_AsteroidField.cs" />
+     <Compile Include="Assets\SpaceUnity\Scripts\SU_Moon.cs" />
+     <Compile Include="Assets\SpaceUnity\Scripts\SU_Planet.cs" />
+     <Compile Include="Assets\SpaceUnity\Scripts\SU_SpaceParticles.cs" />
+     <Compile Include="Assets\SpaceUnity\Scripts\SU_SpaceSceneCamera.cs" />
+     <Compile Include="Assets\SpaceUnity\Scripts\SU_SpaceSceneSwitcher.cs" />
+     <Compile Include="Assets\SpaceUnity\_Demo\Scrips\SU_CameraFollow.cs" />
+     <Compile Include="Assets\SpaceUnity\_Demo\Scrips\SU_Explosion.cs" />
+     <Compile Include="Assets\SpaceUnity\_Demo\Scrips\SU_LaserImpact.cs" />
+     <Compile Include="Assets\SpaceUnity\_Demo\Scrips\SU_LaserShot.cs" />
+     <Compile Include="Assets\SpaceUnity\_Demo\Scrips\SU_SpaceSceneSwitcherDemoGUI.cs" />
+     <Compile Include="Assets\SpaceUnity\_Demo\Scrips\SU_Spaceship.cs" />
+     <Compile Include="Assets\SpaceUnity\_Demo\Scrips\SU_Thruster.cs" />
+     <Compile Include="Assets\_Script\Blackhole.cs" />
      <Compile Include="Assets\_Script\CoordinateMap.cs" />
      <Compile Include="Assets\_Script\PlayerController.cs" />
      <Compile Include="Assets\_Script\Tags.cs" />
+     <None Include="Assets\SpaceUnity\Read First.txt" />
+     <None Include="Assets\SpaceUnity\Shaders\PlanetRings.shader" />
+     <None Include="Assets\SpaceUnity\Shaders\PlanetSelfIllum.shader" />
+     <None Include="Assets\SpaceUnity\Shaders\PlanetStandard.shader" />
+     <None Include="Assets\SpaceUnity\Shaders\PlanetAtmosphere.shader" />
+     <None Include="Assets\SpaceUnity\Shaders\Resources\AsteroidTransparent.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
