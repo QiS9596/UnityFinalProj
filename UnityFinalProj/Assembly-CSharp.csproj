@@ -69,6 +69,7 @@
      <None Include="Assets\SpaceUnity\Shaders\PlanetStandard.shader" />
      <None Include="Assets\SpaceUnity\Shaders\PlanetAtmosphere.shader" />
      <None Include="Assets\SpaceUnity\Shaders\Resources\AsteroidTransparent.shader" />
+     <None Include="Assets\_Shader\NewSurfaceShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
