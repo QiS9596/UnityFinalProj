@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SpaceUnity/Scripts/SU_Asteroid.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Script/AsteroidField.cs">
     <Files>
-      <File FileName="Assets/_Script/AsteroidField.cs" Line="11" Column="2" />
-      <File FileName="Assets/SpaceUnity/Scripts/SU_Asteroid.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Script/AsteroidField.cs" Line="33" Column="1" />
+      <File FileName="Assets/_Script/Asteroid.cs" Line="14" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

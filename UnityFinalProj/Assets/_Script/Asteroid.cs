@@ -5,15 +5,20 @@ public class Asteroid : MonoBehaviour {
 	public GameObject player;
 	Vector3 rotation;
 	float rotateSpeed;
+	float worldRotateSpeed;
 	// Use this for initialization
 	void Start () {
+		player = GameObject.FindGameObjectWithTag (Tags.Player);
 		rotation = 	Random.onUnitSphere;
 		rotateSpeed = Random.Range (0.2f,3.0f);
+		worldRotateSpeed = Random.Range (-30.0f,50.0f);
 	}
 
 	// Update is called once per frame
 	void Update () {
 		transform.Rotate (rotation * rotateSpeed);
+		Debug.Log (worldRotateSpeed);
+		transform.RotateAround(Vector3.zero, Vector3.right, worldRotateSpeed * Time.deltaTime);
 	}
 
 	void OnCollisionEnter(Collision other){
@@ -21,4 +26,6 @@ public class Asteroid : MonoBehaviour {
 			Debug.Log ("On Collision Enter");
 		}
 	}
+
+
 }
