@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Asteroid : MonoBehaviour {
@@ -17,7 +17,6 @@ public class Asteroid : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.Rotate (rotation * rotateSpeed);
-		Debug.Log (worldRotateSpeed);
 		transform.RotateAround(Vector3.zero, Vector3.right, worldRotateSpeed * Time.deltaTime);
 	}
 
