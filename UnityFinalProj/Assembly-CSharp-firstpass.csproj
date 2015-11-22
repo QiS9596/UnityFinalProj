@@ -91,6 +91,7 @@
      <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <None Include="Assets\SpaceUnity\Read First.txt" />
      <None Include="Assets\SpaceUnity\Shaders\PlanetRings.shader" />
+     <None Include="Assets\MaxP\Shaders\_Source\Shaders\Resources\Blur.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Free Sci-Fi Track\ReadMe.txt" />
@@ -100,13 +101,20 @@
      <None Include="Assets\SpaceUnity\Shaders\PlanetStandard.shader" />
      <None Include="Assets\SpaceUnity\Shaders\PlanetAtmosphere.shader" />
      <None Include="Assets\SpaceUnity\Shaders\Resources\AsteroidTransparent.shader" />
+     <None Include="Assets\MaxP\Shaders\_Source\Shaders\Resources\DirtyLensFlare.shader" />
      <None Include="Assets\_Shader\NewSurfaceShader.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
