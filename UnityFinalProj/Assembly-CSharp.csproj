@@ -69,6 +69,7 @@
      <None Include="Assets\SpaceUnity\Shaders\PlanetRings.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Free Sci-Fi Track\ReadMe.txt" />
      <None Include="Assets\SpaceUnity\Shaders\PlanetSelfIllum.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
