@@ -19,4 +19,8 @@ public class MenuManager : MonoBehaviour {
 		CurrentMenu.IsOpen = true;
 	
 	}
+
+	public void LoadGame(){
+		Application.LoadLevel (1);
+	}
 }

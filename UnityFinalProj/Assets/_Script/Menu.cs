@@ -25,9 +25,6 @@ public class Menu : MonoBehaviour {
 	private Animator _animator;
 	private CanvasGroup _canvasGroup;
 
-	public bool IsOpen{
-		get{return _animator.GetBool("IsOpen");}
-		set{_animator.SetBool("IsOpen", value);}
-	}
+	public bool IsOpen;
 
 }
