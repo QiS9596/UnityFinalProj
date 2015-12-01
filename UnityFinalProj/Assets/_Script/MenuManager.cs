@@ -4,10 +4,14 @@ using System.Collections;
 public class MenuManager : MonoBehaviour {
 	public GameObject menu;
 	public Menu CurrentMenu;
-
-	void Awake(){
-		CurrentMenu = menu.GetComponent<Menu> (); 
+    
+	void Start(){
+        menu = GameObject.Find("MainMenu");
+        CurrentMenu = menu.GetComponent<Menu>();
+        CurrentMenu.GetComponent<Animator>().SetBool("IsOpen", true); ;
+        CurrentMenu.GetComponent<CanvasGroup>().blocksRaycasts = CurrentMenu.GetComponent<CanvasGroup>().interactable = true; ;
 		Debug.Log("start");
+        
 		ShowMenu (CurrentMenu);
 	}
 
@@ -19,8 +23,13 @@ public class MenuManager : MonoBehaviour {
 		CurrentMenu.IsOpen = true;
 	
 	}
-
+    
 	public void LoadGame(){
-		Application.LoadLevel (1);
+        //menu = GameObject.Find("MainMenu");
+        Application.LoadLevel (1);
 	}
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
